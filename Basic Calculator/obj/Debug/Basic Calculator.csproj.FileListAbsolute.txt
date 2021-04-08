@@ -1,0 +1,10 @@
+E:\AIUB Semester 08\C#\Final\Codes\Basic Calculator\Basic-Calculator\Basic Calculator\bin\Debug\Basic Calculator.exe.config
+E:\AIUB Semester 08\C#\Final\Codes\Basic Calculator\Basic-Calculator\Basic Calculator\bin\Debug\Basic Calculator.exe
+E:\AIUB Semester 08\C#\Final\Codes\Basic Calculator\Basic-Calculator\Basic Calculator\bin\Debug\Basic Calculator.pdb
+E:\AIUB Semester 08\C#\Final\Codes\Basic Calculator\Basic-Calculator\Basic Calculator\obj\Debug\Basic Calculator.csprojAssemblyReference.cache
+E:\AIUB Semester 08\C#\Final\Codes\Basic Calculator\Basic-Calculator\Basic Calculator\obj\Debug\Basic_Calculator.Form1.resources
+E:\AIUB Semester 08\C#\Final\Codes\Basic Calculator\Basic-Calculator\Basic Calculator\obj\Debug\Basic_Calculator.Properties.Resources.resources
+E:\AIUB Semester 08\C#\Final\Codes\Basic Calculator\Basic-Calculator\Basic Calculator\obj\Debug\Basic Calculator.csproj.GenerateResource.cache
+E:\AIUB Semester 08\C#\Final\Codes\Basic Calculator\Basic-Calculator\Basic Calculator\obj\Debug\Basic Calculator.csproj.CoreCompileInputs.cache
+E:\AIUB Semester 08\C#\Final\Codes\Basic Calculator\Basic-Calculator\Basic Calculator\obj\Debug\Basic Calculator.exe
+E:\AIUB Semester 08\C#\Final\Codes\Basic Calculator\Basic-Calculator\Basic Calculator\obj\Debug\Basic Calculator.pdb
