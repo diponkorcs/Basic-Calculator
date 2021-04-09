@@ -60,6 +60,7 @@ namespace Basic_Calculator
             this.buttonCE.TabIndex = 1;
             this.buttonCE.Text = "CE";
             this.buttonCE.UseVisualStyleBackColor = true;
+            this.buttonCE.Click += new System.EventHandler(this.buttonCE_Click);
             // 
             // buttonC
             // 
@@ -70,6 +71,7 @@ namespace Basic_Calculator
             this.buttonC.TabIndex = 2;
             this.buttonC.Text = "C";
             this.buttonC.UseVisualStyleBackColor = true;
+            this.buttonC.Click += new System.EventHandler(this.buttonC_Click);
             // 
             // buttonMul
             // 
@@ -80,6 +82,7 @@ namespace Basic_Calculator
             this.buttonMul.TabIndex = 3;
             this.buttonMul.Text = "X";
             this.buttonMul.UseVisualStyleBackColor = true;
+            this.buttonMul.Click += new System.EventHandler(this.operator_Click);
             // 
             // buttonDiv
             // 
@@ -90,6 +93,7 @@ namespace Basic_Calculator
             this.buttonDiv.TabIndex = 4;
             this.buttonDiv.Text = "/";
             this.buttonDiv.UseVisualStyleBackColor = true;
+            this.buttonDiv.Click += new System.EventHandler(this.operator_Click);
             // 
             // button6
             // 
@@ -111,6 +115,7 @@ namespace Basic_Calculator
             this.buttonMin.TabIndex = 8;
             this.buttonMin.Text = "-";
             this.buttonMin.UseVisualStyleBackColor = true;
+            this.buttonMin.Click += new System.EventHandler(this.operator_Click);
             // 
             // button9
             // 
@@ -165,6 +170,7 @@ namespace Basic_Calculator
             this.buttonPlus.TabIndex = 13;
             this.buttonPlus.Text = "+";
             this.buttonPlus.UseVisualStyleBackColor = true;
+            this.buttonPlus.Click += new System.EventHandler(this.operator_Click);
             // 
             // button2
             // 
@@ -208,6 +214,7 @@ namespace Basic_Calculator
             this.buttonEq.TabIndex = 18;
             this.buttonEq.Text = "=";
             this.buttonEq.UseVisualStyleBackColor = true;
+            this.buttonEq.Click += new System.EventHandler(this.buttonEq_Click);
             // 
             // button0
             // 
