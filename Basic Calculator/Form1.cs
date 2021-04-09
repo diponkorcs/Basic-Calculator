@@ -16,5 +16,16 @@ namespace Basic_Calculator
         {
             InitializeComponent();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            Result.Text = Result.Text + "1";
+        }
+
+        private void button_Click(object sender, EventArgs e)
+        {
+            Button button = (Button)sender;
+            Result.Text = Result.Text + button.Text;
+        }
     }
 }
