@@ -24,6 +24,10 @@ namespace Basic_Calculator
 
         private void button_Click(object sender, EventArgs e)
         {
+            if(Result.Text=="0")
+            {
+                Result.Clear();
+            }
             Button button = (Button)sender;
             Result.Text = Result.Text + button.Text;
         }
