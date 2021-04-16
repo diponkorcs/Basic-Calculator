@@ -39,6 +39,7 @@ namespace Basic_Calculator
         private void operator_Click(object sender, EventArgs e)
         {
             Button button = (Button)sender;
+            Result.Text = Result.Text + button.Text;
             operation = button.Text;
             result = double.Parse(Result.Text);
             isOperationPerformed = true;
