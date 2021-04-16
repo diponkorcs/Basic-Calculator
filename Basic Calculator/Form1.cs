@@ -27,22 +27,43 @@ namespace Basic_Calculator
 
         private void button_Click(object sender, EventArgs e)
         {
-            if(Result.Text=="0")
+            if((Result.Text=="0") || (isOperationPerformed))
             {
                 Result.Clear();
             }
             Button button = (Button)sender;
-            Result.Text = Result.Text + button.Text;
+            if(button.Text == ".")
+            {
+                if(!Result.Text.Contains("."))
+                {
+                    Result.Text = Result.Text + button.Text;
+                }
+            }
+            else
+            {
+                Result.Text = Result.Text + button.Text;
+            }
+            
             isOperationPerformed = false;
         }
 
         private void operator_Click(object sender, EventArgs e)
         {
             Button button = (Button)sender;
-            Result.Text = Result.Text + button.Text;
-            operation = button.Text;
-            result = double.Parse(Result.Text);
-            isOperationPerformed = true;
+
+            if(result !=0)
+            {
+                buttonEq.PerformClick();
+                operation = button.Text;
+                isOperationPerformed = true;
+            }
+            else
+            {
+                operation = button.Text;
+                result = double.Parse(Result.Text);
+                isOperationPerformed = true;
+            }
+            
             //Result.Text = Result.Text + button.Text;
         }
 
@@ -75,6 +96,9 @@ namespace Basic_Calculator
             {
                 Result.Text = (result / double.Parse(Result.Text)).ToString();
             }
+
+            result = double.Parse(Result.Text);
+
         }
     }
 }
